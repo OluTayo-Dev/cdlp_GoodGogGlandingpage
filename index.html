@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../index.css">
+    <title>GoodGodG</title>
+</head>
+<body>
+    <section>
+        <header class="bg-white shadow-lg md:mt-5 mt-5">
+           <nav class=" flex justify-between items-center w-[92%] mx-auto">
+            <div class="">
+                <img src="./public/GoodGodG logo 2.png" alt="..." class="w-16">
+            </div>
+             
+            <div class="nav-links duration-500 md:static absolute bg-[#ffff] md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-[#BFBFBF] font-medium md:text-lg text-md"href="#">Services</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-black text-[#BFBFBF] font-medium md:text-lg text-md"href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-black text-[#BFBFBF] font-medium md:text-lg text-md"href="#">FAQs</a>
+                    </li>
+                 </ul>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <button class="bg-[#fff] text-[#1004B9] px-4 py-1 rounded-full border border-[#1004B9]">Login</button>
+                <button class="bg-[#1004B9] text-[#ffff] px-4 py-1 md:lg:mt-1 mt-1 rounded-full hover:bg-[#87acec]">Sign Up</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:lg:hidden"></ion-icon
+            </div>
+           </nav>
+        </header>
+
+        <div class="flex flex-col md:flex-row mx-auto">
+            <div class="mx-2 my-2 md:mt-16">
+                <h1 class="md:max-w-md text-[#35463F] md:text-4xl text-2xl font-bold px-2 py-2 md:space-y-6">Be A happy Data Subscriber, Airtime Loader And Utility Bill Payer on <bold class="text-[#A1DA3F]">GoodGodG</bold></h1>
+                <p class="md:max-w-lg md:text-lg text-md text-[#35463F] text-sm md:text-md px-2 py-2">With GoodGodG! Paying Bills, recharge airtime and subscribe data just got easier without delay in activation</p>
+
+                <div class="md:mt-2 md:mx-2">
+                    <button class="bg-[#1004B9] text-[#ffff] px-4 py-1 md:lg:mt-1 mt-1 rounded-full hover:bg-[#87acec] font-medium text-sm">GET STARTED</button>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 md:mt-12">
+                <img src="./public/Maskgroup.png" alt="..." class="w-full"/>
+                <img src="./public/Frame.png" alt="..." class="w-30 md:-mt-28 -mt-16 md:-ml-16 -ml-16" />
+            </div>
+        </div> 
+
+        <div class="my-5">
+            <p class="text-center md:text-center text-black text-lg md:text-2xl font-bold">Our Partners</p>
+
+            <div class=" justify-center md:justify-center flex flex-col md:flex-row mx-auto mt-2 md:space-x-8 space-x-2 space-y-8 items-center">
+                <img src="./public/mtn.png" alt="..." class="w-10 mt-8" />
+                <img src="./public/glo.png" alt="..." class="w-10" />
+                <img src="./public/airtel.png" alt="..." class="w-10" />
+                <img src="./public/9mobile.png" alt="..." class="w-10" />
+                <img src="./public/Gotv.png" alt="..." class="w-10" />
+                <img src="./public/dstv.png" alt="..." class="w-10" />
+                <img src="./public/waec.png" alt="..." class="w-10" />
+                <img src="./public/Neco.png" alt="..." class="w-10" />
+                <img src="./public/ibdc.png" alt="..." class="w-10" />
+                <img src="./public/ekdc.png" alt="..." class="w-10" />
+                <img src="./public/startime.png" alt="..." class="w-10" />
+                <img src="./public/spectranet.png" alt="..." class="w-10" />
+             </div>
+        </div>
+
+        <div class="">
+            <p class="text-center md:text-center text-black text-lg md:text-2xl font-bold">Our Services</p>
+            <div class="flex flex-col md:flex-row mx-auto justify-center md:justify-center md:mt-5 mt-5 md:gap-8 gap-6">
+                <div class="md:w-[25vw] w-[80%] h-full md:h-[33vh] rounded-lg shadow-lg bg-[#0141AB] text-[#fff] ml-8">
+                  <img src="./public/carousel2.png" alt="..." class="md:w-16 w-10 justify-center mx-2 my-2"/>
+                  <h5 class="text-white font-bold px-3 py-1 pl-5 text-md">Recharge Airtime</h5>
+                  <p class="px-3 pl-5 text-[10px] md:text-[10px]">We help your communication go smoothly with our instant recharge airtime. Enter your number, recharge and start calling.
+                    Enjoy-On-The-Go
+                  </p>
+                  <img src="./public/vector.png" alt="..." class="w-4 ml-5 md:ml-5 mt-2 md:mt-2" />
+                </div>
+                <div class="md:w-[25vw] w-[80%] md:h-[34vh] h-full rounded-lg shadow-lg bg-[#ffff] text-[#fff] ml-8">
+                    <img src="./public/carousel2.png" alt="..." class="md:w-16 w-10 mx-2 my-2"/>
+                    <h5 class="text-[#5C5C5C] font-bold px-3 py-1 pl-5 text-md">Top Up Data</h5>
+                    <p class="text-[#5C5C5C] px-3 pl-5 text-[10px] md:text-[10px]">We offer a juicy range of solutions to cater for your communication. With our data services, you get to enjoy uninterupted connectivity, reliable performance, and flexible options.
+                    </p>
+                    <img src="./public/vector.png" alt="..." class="w-4 ml-5 md:ml-5 mt-2 md:mt-2" />
+                  </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row mx-auto justify-center md:justify-center md:mt-5 mt-5 md:gap-8 gap-6">
+                <div class="md:w-[25vw] w-[80%] h-full md:h-[33vh] rounded-lg shadow-lg bg-[#ffff] text-[[#ffff] ml-8">
+                  <img src="./public/carousel3.png" alt="..." class="md:w-16 w-10 justify-center mx-2 my-2"/>
+                  <h5 class="text-[#5C5C5C] font-bold px-3 py-1 pl-5 text-md">Pay Utility Bills</h5>
+                  <p class="px-3 pl-5 text-[10px] md:text-[10px]">Connectivity pay your bills to manage your expenses easily. With just a few clicks, you get to pay for your internet, electricity, cable TV payments and other utility bills.
+                  </p>
+                  <img src="./public/vector.png" alt="..." class="w-4 ml-5 md:ml-5 mt-2 md:mt-2" />
+                </div>
+                <div class="md:w-[25vw] w-[80%] md:h-[34vh] h-full rounded-lg shadow-lg bg-[#ffff] text-[[#fff] ml-8">
+                    <img src="./public/carousel2.png" alt="..." class="md:w-16 w-10 mx-2 my-2"/>
+                    <h5 class="text-[#5C5C5C] font-bold px-3  pl-5 text-md">Educational Payment</h5>
+                    <p class="text-[#5C5C5C] px-3 pl-5 text-[10px] md:text-[10px]">We are committed to empower students, educators and lifelong learners with our educational tool services. say goodbye to manuel processes and embrace digital ease for your education.
+                    </p>
+                    <img src="./public/vector.png" alt="..." class="w-4 ml-5 md:ml-5 mt-2 md:mt-2" />
+                </div>
+            </div>
+
+           <div class="justify-center md:justify-center flex flex-col md:flex-row md:mt-5 mt-5">
+            <div class="md:w-[25vw] w-[80%] md:h-[34vh] h-full rounded-lg shadow-lg bg-[#ffff] text-[#fff] ml-8">
+                <img src="./public/carousel2.png" alt="..." class="md:w-16 w-10 mx-2 my-2"/>
+                <h5 class="text-[#5C5C5C] font-bold px-3 py-1 pl-5 text-md">Airtime to Cash</h5>
+                <p class="text-[#5C5C5C] px-3 pl-5 text-[10px] md:text-[10px]">Make extra cash! Convert your unused airtime to cash with our airtime to cash service. Say goodbye to wasted airtime and welcome instant cash in your wallet or bank account. Enjoy-on-the-go
+                </p>
+                <img src="./public/vector.png" alt="..." class="w-4 ml-5 md:ml-5 mt-2 md:mt-2" />
+            </div>
+           </div>
+        </div>
+
+        <div class="bg-[#0141AB] w-full min-h-[40vh] md:mt-5 mt-5">
+            <p class="text-[#ffff] md:text-2xl text-lg font-bold justify-center md:justify-center text-center">How it Works</p>
+
+            <div class="flex flex-col md:flex-row md:space-x-6 space-x-0 md:space-y-4 space-y-6 mx-auto md:mt-8 mt-8 md:ml-8">
+                <div class="md:w-1/3 justify-center md:justify-center text-center">
+                    <img src="./public/01.png" alt="..." class="md:w-20 w-20 ml-[8rem] md:ml-[8rem]"/>
+                    <p class="text-[#fff] font-bold">Register</p>
+                    <hr class="md:w-[25vw] w-[90%] bg-[#bcbc] ml-[1rem]" />
+                    <p class="md:max-w-[350px] text-[#fff] text-[10px] md:text-sm">
+                        Click on the Sign up button to get started easily,
+                        Fill your correct details. Welcome message awaits you. 
+                        Thanks choosing us!
+                    </p>
+                </div>
+                <div class="md:w-1/3 justify-center md:justify-center text-center">
+                    <img src="./public/02.png" alt="..." class="md:w-20 w-20 ml-[8rem] md:ml-[8rem]"/>
+                    <p class="text-[#fff] font-bold">Fund your E-wallet</p>
+                    <hr class="md:w-[25vw] w-[90%] bg-[#bcbc] ml-[1rem]" />
+                    <p class="max-w-[350px] text-[#fff] text-[10px] md:text-sm">
+                        After you have registered and activated your account fund your wallet to start enjoying successful transactions.
+                    </p>
+                </div>
+                <div class="md:w-1/3 justify-center md:justify-center text-center">
+                    <img src="./public/03.png" alt="..." class="md:w-20 w-20 ml-[8rem] md:ml-[8rem]"/>
+                    <p class="text-[#fff] font-bold">Start succesful transactions</p>
+                    <hr class="md:w-[25vw] w-[90%] bg-[#bcbc] ml-[1rem]" />
+                    <p class="max-w-[350px] text-[#fff] text-[10px] md:text-sm">
+                       Yes! You are good to start enjoying our unlimited and affordable services. Just Dey Enjoy.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row md:justify-center justify-center">
+            <div class="bg-[#EEEEEE] rounded-lg md:w-[25vw] w-[70%] h-[70%] md:h-[63vh] md:mt-5 mt-5 md:ml-0 ml-12 shadow-lg">
+              <h1 class="text-[#0141AB] font-bold md:text-2xl text-lg px-3 py-3">How to Recharge, Pay Bills And Subscribe Data</h1>
+
+              <ul class="mx-auto md:text-sm text-sm py-3 md:space-y-3 space-y-4 font-medium">
+                <li>Login to your Dashboard</li>
+                <li> Select the service you want to use.</li>
+                <li>Enter your information.</li>
+                <li>Enter the amount you want to pay or the amount of airtime or data you want to subscribe to.</li>
+                <li>Click "Pay" or "Recharge".</li>
+                <li>Viola Congratulations... Transaction successful</li>
+              </ul>
+            </div>
+            <div class="md:ml-1 ml-12">
+                <div class="bg-[#A1DA3F] md:w-[25vw] md:h-[25vh] w-[35vh] h-[25vh] rounded-lg md:mt-5 mt-4 md:ml-16 shadow-lg">
+                 <h1 class="md:px-4 px-4 md:py-1 py-1 font-bold text-md md:text-lg">ABOUT US</h1>
+                 <p class="text-[10px] md:text-[10px] md:py-2 py-2 md:px-4 px-4">At GoodGod.ng, we pride ourselves on being a secure and available 24/7 platform that simplifies the process of recharging airtime, topping up data, and handling bill payments. We offer the convenience of accepting various payment methods, including credit cards, debit cards, and Paypal.</p>
+                </div>
+
+                <div class="bg-[#A1DA3F] md:w-[25vw] md:h-[25vh] w-[35vh] h-[25vh] rounded-lg md:mt-5 mt-4 md:ml-16 shadow-lg">
+                    <h1 class="md:px-4 px-4 md:py-1 py-1 font-bold text-md md:text-lg">Mission Statement</h1>
+                    <p class="text-[10px] md:text-[10px] md:py-2 py-2 md:px-4 px-4">Our objective is to simplify the process of bill payment and foster connectivity for customers like yourself. We firmly believe in universal access to cost-effective and dependable telecommunications services. Our unwavering dedication is to ensure that our customers enjoy the utmost satisfacion in their experience with us.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="justify-center md:justify-center md:w-[70%] w-[90%] ml-5 md:ml-[10rem] md:mt-5 mt-5">
+          <h1 class="text-lg md:text-2xl justify-center md:text-center text-center font-bold">Our Value @GoodGodG</h1>
+          <p class="md:text-md text-sm">At GoodGodG!, we prioritize meeting customer needs with quick with quick and secure transaction. Your trust is crucial to us, ensuring your payments and personal data are well protected. Our instant top-up service allows you to recharge swiftly. We offer a one-stop solutions for bills payment, eliminating the hastle of multiple due dates. Our 24/7 availability and user-friendly interface make managing transactions easy anytime, anywhere. Enjoy a hassle-free experience with Click Topup!</p>
+        </div>
+
+        <div class="md:mt-5 mt-5">
+            <h1 class=" md:max-w-sm text-lg md:text-2xl justify-center md:text-center text-center font-bold md:ml-[25rem] ml-[3rem]">What Our Customers Have To Say About Us</h1>
+          <div class="flex flex-col md:flex-row mx-auto space-x-0 md:space-x-4 justify-center md:justify-center md:space-y-0 space-y-6 items-center">
+            
+            <div class="md:w-[20vw] md:h-[33vh] w-[70%] h-[70%] rounded-lg shadow-2xl md:-mt-5">
+               <img src="./public/quote.png" alt="..." class="w-8 md:w-10 md:mx-4 mx-4 md:my-3 my-3" />
+               <p class="text-[#5C5C5C] md:text-[12px] text-[10px] md:py-2 py-2 md:px-3 px-3">
+                Recharging airtime has never been so effortless, thanks to GoodGod. It saves me from valuable time and effort, and I applaud the team for their work!
+               </p>
+               <p class="text-[#A1DA3F] font-bold md:py-1 py-1 md:px-3 px-3">-<bold class="text-black md:text-[12px] text-[10px]">Anonymous</bold></p>
+            </div>
+
+            <div class="md:w-[20vw] md:h-[33vh] w-[70%] h-[70%] rounded-lg shadow-2xl">
+                <img src="./public/quote.png" alt="..." class="w-8 md:w-10 md:mx-4 mx-4 md:my-3 my-3" />
+                <p class="text-[#5C5C5C] md:text-[12px] text-[10px] md:py-2 py-2 md:px-3 px-3">
+                 Recharging airtime has never been so effortless, thanks to GoodGod. It saves me from valuable time and effort, and I applaud the team for their work!
+                </p>
+                <p class="text-[#A1DA3F] font-bold md:py-1 py-1 md:px-3 px-3">-<bold class="text-black md:text-[12px] text-[10px]">Anonymous</bold></p>
+             </div>
+
+             <div class="md:w-[20vw] md:h-[33vh] w-[70%] h-[70%] rounded-lg shadow-2xl md:-mt-5">
+                <img src="./public/quote.png" alt="..." class="w-8 md:w-10 md:mx-4 mx-4 md:my-3 my-3" />
+                <p class="text-[#5C5C5C] md:text-[12px] text-[10px] md:py-2 py-2 md:px-3 px-3">
+                 Recharging airtime has never been so effortless, thanks to GoodGod. It saves me from valuable time and effort, and I applaud the team for their work!
+                </p>
+                <p class="text-[#A1DA3F] font-bold md:py-1 py-1 md:px-3 px-3">-<bold class="text-black md:text-[12px] text-[10px]">Anonymous</bold></p>
+             </div>
+          </div>
+        </div>
+
+        <div class="md:mt-8 mt-8 md:items-center items-center">
+            <h1 class="font-bold md:text-3xl text-lg md:text-center text-center">FREQUENTLY ASKED QUESTIONS</h1>
+            <div class="accordion md:space-y-8 space-y-6 md:lg:ml-[15rem]  ml-[2rem] md:mt-5 mt-5">
+               <details class="">
+                  <summary class="hover:text-[#0141AB] font-medium">  Which button between SIGN UP and LOGIN will I click to get started?</summary>
+                  <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+               </details>
+
+               <details class=""> 
+                <summary class="hover:text-[#0141AB] font-medium">  How do I know if my account is activated and I can make a purchase?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Once you can access your dashboard, you have successfully rqistered. (Welcome On Board)</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  What if I encounter an issue while registering, how do I get it sorted out?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  How secure is my transaction history and can I access them anytime?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  How do I buy airtime, data or pay my Bills?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  How will I check if the transaction is successful?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  If the transaction fails, what will I do?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  After registeration, what will I do next?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+
+             <details class="">
+                <summary class="hover:text-[#0141AB] font-medium">  What are important things during registration?</summary>
+                <p class="text-[#5C5C5C] bg-white shadow-lg md:w-fit w-fit">Click the SIGN UP button to get started</p>
+             </details>
+            </div>
+            <p class="font-bold md:text-[12px] text-[10px] md:text-center text-center md:py-5 py-5">More questions, please <a class="text-[#0141AB]"href="#">Contact Us!</a></p>
+        </div>
+    <hr class="bg-[#A1DA3F] md:h-[2px] h-[2px] md:w-full w-full" />
+
+        <div class="">
+            <p class="md:text-2xl text-lg md:text-center text-center md:py-5 py-5">Affordable Data Plans And Prices</p>
+
+            <div class="flex flex-col md:flex-row md:items-center items-center justify-center md:justify-center md:gap-12 gap-6">
+                <div class="md:w-[20.5%] md:min-hifit min-h-fit w-[70%] rounded-lg shadow-lg border border-[#A1DA3F]">
+                     <img src="./public/mtn-rounded.png" alt="..." class="w-16 md:w-18 md:my-8 my-8 md:ml-[4rem] ml-[6rem]" />
+                     <p class="text-center md:text-center">MTN DATA</p>
+                     <div class="flex md:space-x-8 space-x-8 md:mt-5 mt-5 justify-center md:justify-center">
+                        <ul class="md:space-y-4 space-y-4 md:text-[11px] text-[10px]">
+                            <li>500.0MB</li>
+                            <li>1.0GB</li>
+                            <li>2.0GB</li>
+                            <li>3.0GB</li>
+                            <li>5.0GB</li>
+                            <li>10.0GB</li>
+                            <li>15.0GB</li>
+                            <li>40.0GB</li>
+                        </ul>
+                        <ul class=" md:space-y-4 space-y-4 md:text-[11px] text-[10px]">
+                            <li>#170</li>
+                            <li>#320</li>
+                            <li>#640</li>
+                            <li>#960</li>
+                            <li>#1600</li>
+                            <li>#3325</li>
+                            <li>#5000</li>
+                            <li>10000</li>
+                        </ul>
+                        <ul class="md:space-y-4 space-y-4 md:text-[11px] text-[10px]">
+                            <li>30days</li>
+                            <li>30days</li>
+                            <li>30days</li>
+                            <li>30days</li>
+                            <li>30days</li>
+                            <li>30days</li>
+                            <li>30days</li>
+                            <li>30days</li>
+                        </ul>
+                     </div>
+
+                     <div class="md:ml-[5rem] ml-[6rem] md:mt-16 mt-12 md:my-5 my-5">
+                        <button type="submit" class="bg-[#0141AB] rounded-lg py-2 px-2 text-[#ffff] md:text-[10px]">Get Started</button>
+                     </div>
+                </div>
+
+                <div class="bg-[#0141AB] md:w-[20.5%] md:min-hifit min-h-fit w-[70%] rounded-lg shadow-lg border-0">
+                    <img src="./public/rounded-glo.png" alt="..." class="w-16 md:w-18 md:my-8 my-8 md:ml-[4rem] ml-[6rem]" />
+                    <p class="text-center md:text-center text-[#ffff]">GLO DATA</p>
+                    <div class="flex md:space-x-8 space-x-8 md:mt-5 mt-5 text-[#ffff] justify-center md:justify-center">
+                       <ul class="md:mx-3 mx-4 md:space-y-4 space-y-4 md:text-[11px] text-[10px]">
+                           <li>1.0GB</li>
+                           <li>2.3GB</li>
+                           <li>3.7GB</li>
+                           <li>5.25GB</li>
+                           <li>7.7GB</li>
+                           <li>9.0GB</li>
+                           <li>18.25GB</li>
+                           <li>46.0GB</li>
+                       </ul>
+                       <ul class="md:mx-3 mx-5 md:space-y-4 space-y-4 md:text-[11px] text-[10px]">
+                           <li>#465<li>
+                           <li>#930</li>
+                           <li>#1385</li>
+                           <li>#1860</li>
+                           <li>#2500</li>
+                           <li>#2790</li>
+                           <li>#5000</li>
+                           <li>#9300</li>
+                       </ul>
+                       <ul class="md:pr-3 mx-5 md:space-y-4 space-y-4 md:text-[11px] text-[10px]">
+                           <li>30days</li>
+                           <li>30days</li>
+                           <li>30days</li>
+                           <li>30days</li>
+                           <li>30days</li>
+                           <li>30days</li>
+                           <li>30days</li>
+                           <li>30days</li>
+                       </ul>
+                    </div>
+
+                    <div class="md:ml-[6rem] ml-[6rem] md:mt-16 mt-12 md:my-5 my-5">
+                        <button type="submit" class="bg-[#ffff] rounded-lg py-2 px-2 text-black md:text-[10px]">Get Started</button>
+                     </div>
+               </div>
+
+               <div class="md:w-[21.5%] md:min-hifit min-h-fit w-[70%] rounded-lg shadow-lg border border-[#A1DA3F]">
+                <img src="./public/airtel-rounded.png" alt="..." class="w-16 md:w-18 md:my-8 my-8 md:ml-[4rem] ml-[6rem]" />
+                <p class="text-center md:text-center">AIRTEL DATA</p>
+                <div class="flex md:space-x-8 space-x-8 md:mt-5 mt-5 md:justify-center justify-center">
+                   <ul class="md:mx-3 mx-4 md:space-y-4 space-y-4 md:text-[10px] text-[10px]">
+                       <li>750.0MB</li>
+                       <li>1.5GB</li>
+                       <li>2.0GB</li>
+                       <li>3.0GB</li>
+                       <li>6.0GB</li>
+                       <li>11.0GB</li>
+                       <li>15.0GB</li>
+                       <li>40.0GB</li>
+                   </ul>
+                   <ul class="md:mx-3 mx-5 md:space-y-4 space-y-4 md:text-[10px] text-[10px]">
+                       <li>#475</li>
+                       <li>#950</li>
+                       <li>#1149</li>
+                       <li>#1425</li>
+                       <li>#2375</li>
+                       <li>#3800</li>
+                       <li>#4750</li>
+                       <li>#8500</li>
+                   </ul>
+                   <ul class="md:pr-3 mx-3 md:space-y-4 space-y-4 md:text-[10px] text-[10px]">
+                       <li>30days</li>
+                       <li>30days</li>
+                       <li>30days</li>
+                       <li>30days</li>
+                       <li>30days</li>
+                       <li>30days</li>
+                       <li>30days</li>
+                       <li>30days</li>
+                   </ul>
+                </div>
+
+                <div class="md:ml-[6rem] ml-[6rem] md:mt-16 mt-12 md:my-5 my-5">
+                    <button type="submit" class="bg-[#0141AB] rounded-lg py-2 px-2 text-[#ffff] md:text-[10px]">Get Started</button>
+                 </div>
+           </div>
+
+           <div class="md:w-[21.5%] md:min-hifit min-h-fit w-[70%] rounded-lg shadow-lg border border-[#A1DA3F]">
+            <img src="./public/9mobile.png" alt="..." class="w-16 md:w-18 md:my-8 my-8 md:ml-[6rem] ml-[4rem] rounded-ful" />
+            <p class="text-center md:text-center">9MOBILE</p>
+            <div class="flex md:space-x-8 space-x-8 md:mt-5 mt-5 md:justify-center justify-center">
+               <ul class="md:mx-3 mx-5 md:space-y-4 space-y-4 md:text-[10px] text-[10px] text-center">
+                   <li>1.5GB</li>
+                   <li>2.0GB</li>
+                   <li>4.5GB</li>
+                   <li>11.0GB</li>
+                   <li>15.0GB</li>
+                   <li>40.0GB</li>
+                   <li>75.0GB</li>
+                   <li>40.0GB</li>
+               </ul>
+               <ul class="md:mx-3 mx-3 md:space-y-4 space-y-4 md:text-[10px] text-[10px]">
+                   <li>#850</li>
+                   <li>#1020</li>
+                   <li>#1700</li>
+                   <li>#3400</li>
+                   <li>#4250</li>
+                   <li>#9000</li>
+                   <li>#13500</li>
+                   <li>#10000</li>
+               </ul>
+               <ul class="md:pr-5 mx-3 md:space-y-4 space-y-4 md:text-[10px] text-[10px]">
+                   <li>30days</li>
+                   <li>30days</li>
+                   <li>30days</li>
+                   <li>30days</li>
+                   <li>30days</li>
+                   <li>30days</li>
+                   <li>30days</li>
+                   <li>30days</li>
+               </ul>
+            </div>
+
+            <div class="md:ml-[6rem] ml-[6rem] md:mt-16 mt-12 md:my-5 my-5">
+                <button type="submit" class="bg-[#0141AB] rounded-lg py-2 px-2 text-[#ffff] md:text-[10px]">Get Started</button>
+             </div>
+       </div>
+            </div>
+        </div>
+
+        <div class="md:mt-8 mt-8">
+            <p class="md:text-center text-center md:text-lg text-md font-bold">Get in Touch</p>
+
+            <div class="flex flex-col md:flex-row mx-auto justify-center md:justify-center md:mt-12 mt-12 space-y-4">
+                <input type="text" placeholder="Name" class="md:w-[30%] md:h-[6vh] w-[70%] h-[7vh] ml-[3rem] outline-0 border border-[#bcbcbc] md:px-4 px-4" />
+
+                <input type="text" placeholder="Email" class="md:w-[30%] md:h-[6vh] w-[70%] h-[7vh] ml-[3rem] outline-0 border border-[#bcbcbc] md:px-4 px-4 " />
+
+                <span class="ml-[8rem]">
+                    <p class="font-bold">Phone number</p>
+                    <p class="">090511200000</p>
+                </span>
+            </div>
+            <div class="flex flex-col md:flex-row mx-auto justify-center md:justify-center md:gap-[2vw] md:mt-5 mt-5">
+                <input type="text" placeholder="Message" class="md:w-[50%] w-[70%] h-[15vh] ml-[3rem] md:h-[17vh] outline-0 border border-[#bcbcbc] md:px-4 px-4"/>
+                <button type="submit" class=" bg-[#A1DA3F] py-2 px-2 text-[10px] text-[#ffff] md:w-[10%] md:h-[6vh] w-[25%] ml-12 md:ml-0 mt-2 md:mt-16">Send Message</button> 
+                <span class="mt-2 ml-[8rem]">
+                    <p class="font-bold">Email Address</p>
+                    <p class="">goodgodbc@gmail.com</p>
+
+                    <span>
+                        <p class="font-bold">Location</p>
+                        <p class="">Lagos, Nigeria</p>
+                    </span>
+                </span>
+               
+            </div>
+        </div>
+
+        <footer class="bg-[#D9D9D9] min-h-[40vh] md:mt-5 mt-5">
+           <div class="flex flex-col md:flex-row md:space-x-24 space-x-0 mx-auto md:space-y-0 space-y-4">
+             
+             <div class="md:w-[33.3%] justify-center md:text-[15px] text-[10px] md:px-5 px-5">
+                <div class="justify-between md:mt-8 mt-5 md:mx-8 ml-[8rem]">
+                    <img src="./public/GoodGodG logo 2.png" alt="..." class="w-20 md:w-20" />
+                 </div>
+                Welcome to GoodGodG.com! We're a thriving digital company based in Nigeria, committed to delivering an exceptional platform for all your daily online requirements and desires.
+                Why hesitat? <a href="#">Join us today</a>
+             </div>
+
+             <ul class="md:text-[15px] text-[10px] md:pt-12 md:space-y-4 text-center">
+                <li class="font-bold"><a  href="#">Company</a></li>
+
+                <li><a href="#">About us</a></li>
+
+                <li><a href="#">Product</a></li>
+
+                <li><a href="#">Testimonials</a></li>
+             </ul>
+
+             <ul class="md:text-[15px] text-[10px] md:pt-12 md:space-y-4 text-center">
+                <li class="font-bold"><a href="#">Company</a></li>
+
+                <li><a href="#">FAQ</a></li>
+
+                <li><a href="#">Privacy Policy</li>
+
+                <li><a href="#">Terms of Service</a></li>
+             </ul>
+
+
+             <ul class="md:text-[15px] text-[10px] md:pt-12 md:space-y-4 text-center">
+                <li class="font-bold"><a href="#">Contact Us</a></li>
+
+                <li><a href="#">goodgodbc@gmail.com</a></li>
+
+                <li><a href="#">Lagos, Nigeria</a></li>
+             </ul>
+
+           </div>
+
+           <p class="text-center text-[#0141AB] md:text-center md:text-md text-sm font-medium md:pt-8 pt-8"> &copy;2023GoodGodG.com. All Right Reserved</p>
+
+
+        </footer>
+    </section>
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+       function onToggleMenu(e){
+           e.name = e.name==='menu-outline' ? 'close' : 'menu'
+           navLinks.classList.toggle('top-[9%]')
+       }
+   </script> 
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
